@@ -1,0 +1,292 @@
+body{
+    background: white;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.left img{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+.middle a{
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.middle{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 2s;
+}
+.middle a:hover{
+    color: black;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    padding: 2px;
+    box-shadow: 20px 25px 30px;
+}
+.right a{
+    text-decoration: none;
+    border: 2px solid gold;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 25px;
+    transition: 2s;
+}
+.right a:hover{
+    background-color: gold;
+    color: white;
+    letter-spacing: 2px;
+    box-shadow: 20px 25px 30px;
+}
+#h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
+    margin: 15px;
+    border: 2px solid gold;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    opacity: 0.5s;
+    transition: 2s;
+}
+#one{
+    margin-left: 600px;
+}
+.btn a:hover{
+background-color: blue;
+color: white;
+box-shadow: 20px 25px 30px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#ones img, #twos img{
+    height:250px;
+    width: 350px;
+    border-radius: 25px;
+    transition: 2s;
+}
+#twos img:hover,#ones img:hover {
+    height:350px;
+    width: 450px;
+    border-radius: 250px;
+    box-shadow: 20px 25px 30px;
+}
+
+
+/* contact us */
+
+#img img{
+    width: 1500px;
+}
+.back{
+    background-color: pink;
+}
+h1,h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* @media screen and (min-width: 250px) {
+    #img img {
+      width:200px;
+    }
+  }
+/* @media screen and (max-width: 750px) {
+    #img img {
+      width:700px;
+    }
+  } */
+
+  /* contact us end */
+
+
+  /* fashion */
+
+.ba{
+    background: linear-gradient(275deg,#254585,#586542);
+}
+.back-one, .back-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#he{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hea{
+    position: absolute;
+    bottom: 5px;
+    color: gold;
+    padding-left: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#ade{
+    position: absolute;
+    top: 1180px;
+    color:gold;
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.imagea img, .two-one img{
+    height: 500px;
+    width: 350px;
+}
+/* fashion end */
+
+
+/* category */
+.category{
+    background: linear-gradient(275deg,#0545,#584522);
+}
+.cate-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ca-one img{
+height: 250px;
+width: auto;
+cursor: pointer;
+}
+
+.cate-one img:hover{
+    border-radius: 200px;
+    height: 350px;
+    width: auto;
+}
+
+/* category end */
+/* offers */
+.off-two , .off-twos, .off-twoe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.off-two img{
+    height: 550px;
+    width: auto;
+}
+.off-twoe h6{
+    position: absolute;
+    top: 850px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+}
+.off-twos img,.off-twoe img{
+    height: 500px;
+    width: 1000px;
+}
+/* offers end */
+
+
+
+
+/* login  */
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    margin-left: 550px;
+    background-color: honeydew;
+    border-radius: 250px;
+    height: 500px;
+    width: 350px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px black;
+
+}
+.form a{
+    text-decoration: none;
+    color: brown;
+    border: 2px solid yellow;
+    border-radius: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+#log{
+    color: green;
+    background-color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 2s;
+}
+#log:hover{
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 20px 25px 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login end */
